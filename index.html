@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        Untitled-1.html
+    </style>
+    <title>陆锦沂个人网站</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="section">
+            <h1>陆锦沂</h1>
+            <p>今天很开心。遂准备学习前端。运用到的有：HTML,CSS,JavaScript。
+                学习第二天的浅薄理解：HTML起到框架的作用，CSS起到排版的作用，而JavaScript主要是算法。
+                前端有一定限制，还应该学习后端，以fetch一些数据。
+                </p >
+        </div>  
+        <div class="section">
+            <h2>这是一个小标题：后端学习？</h2>
+            <p>这是一个小标题下的内容。何为fetch一些数据？例如，我想获取某人的b站粉丝数量，即需通过后端绕过b站的API限制。
+                还要下载NODE JS，来运行JavaScript，如软件名。否则只能在浏览器运行前者。
+                B站的后端不想让我调动，
+                所以我要自己做一个后端来偷偷调它的API，然后在我自己的前端里用自己的后端。</p >
+        </div>
+    </div>
+    <div class="image-container">
+        < img src="https://source.unsplash.com/8v7vsiRxpQY/1600x900" alt="陆锦沂个人网站">
+    </div>
+    <div class="button-container">
+        <button onclick="incrementCount()">点击我</button>
+        <div class="count-display" id="count-display">点击次数: 0</div>
+    </div>
+    <script>
+        let count = 0;
+        function incrementCount() {
+            count++;
+            document.getElementById('count-display').innerText = '点击次数: ' + count;
+        }
+    </script>
+</body>
+</html>
